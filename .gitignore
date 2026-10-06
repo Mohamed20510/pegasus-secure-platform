@@ -1,0 +1,29 @@
+# Node / Next.js / Electron dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+PEGASUS-win32-x64/
+*.log
+
+# Python virtual environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Databases & local scan storage
+ssp.db
+ssp.db-journal
+/tmp/
+pegasus_scans/
+*.zip
+
+# Secrets & Environment variables
+.env
+.env.local
+*.pem
+*.key
